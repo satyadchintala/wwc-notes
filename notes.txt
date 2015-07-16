@@ -23,3 +23,6 @@ Add a file to the repository
 
 Create a new commit!
     git commit -m 'this is my commit message'
+
+Whoops, deleted notes.txt
+    git checkout notes.txt
