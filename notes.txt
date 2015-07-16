@@ -20,3 +20,6 @@ Notes: hey how about WHY
 
 Add a file to the repository
     git add <that file>
+
+Create a new commit!
+    git commit -m 'this is my commit message'
