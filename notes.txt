@@ -1,0 +1,22 @@
+These are my notes so far:
+
+Make a new directory:
+    mkdir <new name>
+    cd <same name>
+
+Initialize a new repository
+    git init
+
+Check up on your new repository
+    git status
+
+Pick an IDE
+    I chose vim, don't choose vim
+    You might like Sublime Text 2, or PyCharm, or PyDev, or Eclipse, or emacs
+
+Open a file, notes.txt, in your new directory (in that repository)
+
+Notes: hey how about WHY
+
+Add a file to the repository
+    git add <that file>
