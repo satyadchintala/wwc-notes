@@ -26,3 +26,9 @@ Create a new commit!
 
 Whoops, deleted notes.txt
     git checkout notes.txt
+
+Create a new feature branch
+   git checkout -b <new-branch-name>
+
+What branch am I in?
+    git branch -a
