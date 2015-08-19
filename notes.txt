@@ -32,3 +32,28 @@ Create a new feature branch
 
 What branch am I in?
     git branch -a
+
+Okay, back to master
+    git checkout master
+
+I liked those changes though
+    git merge <that-feature-branch>
+
+
+Workflow so far
+
+git init
+repeat {
+    git checkout -b <feature-branch>
+    repeat {
+        make changes to <files>
+        git add <files>
+        git commit
+    }
+    git checkout master
+    maybe {
+        git merge <feature-branch>
+    }
+}
+
+https://www.udacity.com/course/how-to-use-git-and-github--ud775
